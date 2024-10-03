@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTP-8">
+        <META NAME="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+    </head>
+    <body>
+<h1>KARAKTER KRISHNA</h1>
+
+<p><a href="#krishna">1. KRISHNA</a></p>
+<p><a href="#balram">2. BALRAM</a></p>
+<p><a href="#radha">3. RADHA</a></p>
+
+
+
+    </body>
+    <H2>About Krishna</h2>
+ Little Krishna adalah seri animasi mitologi Hindu dengan tema kehidupan Narayana atau Krishna yang merupakan kreasi bersama antara Big Animation dan The Heritage Foundation India. Little Krishna adalah hiburan dari Kepribadian Agung Ketuhanan, Batara Krishna
+
+</html>
+
+<h1 id="Krishna">KRISNA</h2>
+<img src="gambar/krishna.webp" wight="200" height="200">
+ Little Krishna adalah seri animasi mitologi Hindu dengan tema kehidupan Narayana atau Krishna yang merupakan kreasi bersama antara Big Animation dan The Heritage Foundation India. Little Krishna adalah hiburan dari Kepribadian Agung Ketuhanan, Batara Krishna. 
+
+
+ <a href="#atas">kembali ke atas</a></free>
+
+<h2 id="balram">BALRAM</h2>
+<img src="gambar/balram.jfif" weight="200" height="200">
+ Balarama , juga dikenal sebagai Balaram, Bala-Rama, Baladeva, Madhupriya, dan Halayudha, adalah dewa kekuatan, penggembala, pembajak, dan pertanian dalam agama Hindu. Namanya berasal dari kata Sansekerta bala , yang berarti kekuatan, dan Rama , nama dewa Hindu lainnya.
+
+ <a href="#atas">kembali ke atas</a></free>
+
+<h3 id="radha">RADHA</h2>
+<img src="gambar/radha.jfif" weight="200" height="200">
+Radha adalah dewi Hindu terkemuka dan dihormati yang memiliki tempat khusus di hati jutaan pemujanya di seluruh dunia. Sebagai kekasih abadi dan permaisuri ilahi Dewa Krishna, Radha melambangkan cinta murni, pengabdian, dan ketidakegoisan, yang mewujudkan cita-cita kesetiaan tertinggi.
+
+<a href="#atas">kembali ke atas</a></free>
+
+<h2>Kolom Komentar</h2>
+<style>
+ body {
+    front-family: Arial, sans-serif;
+ }
+.comment-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.comment-list {
+    margin-top: 20px;
+}
+.comment-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+</style>
+
+<div class="comment-box">
+    <h2>Tinggalkan Komentar</h2>
+    <textarea id="comment" placeholder="Tulis komentar Anda..."></textarea>
+    <button onclick="addComment()">Kirim Komentar</button>
+</div>
+
+<div class="comments-list" id="commentsList">
+    <h3>Komentar:</h3>
+</div>
+
+<script>
+function addComment() {
+            // Ambil nilai dari textarea
+            const commentText = document.getElementById("comment").value;
+            
+            // Cek apakah teks tidak kosong
+            if(commentText.trim() !== "") {
+                // Buat elemen paragraf baru untuk komentar
+                const newComment = document.createElement("div");
+                newComment.classList.add("comment-item");
+                newComment.textContent = commentText;
+
+                // Tambahkan komentar ke daftar
+                const commentsList = document.getElementById("commentsList");
+                commentsList.appendChild(newComment);
+
+                // Kosongkan kolom textarea setelah komentar ditambahkan
+                document.getElementById("comment").value = "";
+            } else {
+                alert("Kolom komentar tidak boleh kosong!");
+            }
+        }
+
+</script>
+
+
+<br>
+<br>
+
+<h3>IKUTI KAMI DI MEDIA SOSIAL</h3>
+
+<div class="social-links">
+    <a href="https://www.instagram.com/mustikawjyaa/profilecard/?igsh=MTBvZGR1M2p1YmdjeA==" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" wight="100" height="100">
+    </a>
+
+</div>
+
+
+
+</body>
+</html>
